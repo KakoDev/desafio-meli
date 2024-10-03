@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.17">
   <diagram name="Página-1" id="Ft1Fhtj1E9fF1F4gTNqM">
-    <mxGraphModel dx="1238" dy="935" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1238" dy="1335" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ux4RUECBiBFG8NEq2FT6-1" value="Usuario" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="1">
-          <mxGeometry x="-103" y="32" width="63" height="63" as="geometry" />
+          <mxGeometry x="-102" y="78" width="63" height="63" as="geometry" />
         </mxCell>
         <mxCell id="Ux4RUECBiBFG8NEq2FT6-5" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Ux4RUECBiBFG8NEq2FT6-2" target="Ux4RUECBiBFG8NEq2FT6-4">
           <mxGeometry relative="1" as="geometry" />
@@ -53,7 +53,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ux4RUECBiBFG8NEq2FT6-38" value="Data" style="swimlane;startSize=20;horizontal=1;childLayout=flowLayout;flowOrientation=north;resizable=0;interRankCellSpacing=50;containerType=tree;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="418" y="292" width="228" height="140" as="geometry" />
+          <mxGeometry x="420" y="318" width="228" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Ux4RUECBiBFG8NEq2FT6-9" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="Ux4RUECBiBFG8NEq2FT6-38">
           <mxGeometry x="20" y="40" width="60" height="80" as="geometry" />
@@ -66,6 +66,15 @@
         </mxCell>
         <mxCell id="Ux4RUECBiBFG8NEq2FT6-12" value="Web App Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ux4RUECBiBFG8NEq2FT6-50">
           <mxGeometry x="72" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ux4RUECBiBFG8NEq2FT6-56" value="Logs" style="swimlane;startSize=20;horizontal=1;childLayout=flowLayout;flowOrientation=north;resizable=0;interRankCellSpacing=50;containerType=tree;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="484" y="-104" width="100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Ux4RUECBiBFG8NEq2FT6-57" value="Elastic APM" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="Ux4RUECBiBFG8NEq2FT6-56">
+          <mxGeometry x="20" y="40" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ux4RUECBiBFG8NEq2FT6-61" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Ux4RUECBiBFG8NEq2FT6-12" target="Ux4RUECBiBFG8NEq2FT6-57">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
