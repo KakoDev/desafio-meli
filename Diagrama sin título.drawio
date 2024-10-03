@@ -7,8 +7,8 @@
         <mxCell id="Ux4RUECBiBFG8NEq2FT6-3" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Ux4RUECBiBFG8NEq2FT6-1" target="Ux4RUECBiBFG8NEq2FT6-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ux4RUECBiBFG8NEq2FT6-1" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="1">
-          <mxGeometry x="-112" y="58" width="63" height="63" as="geometry" />
+        <mxCell id="Ux4RUECBiBFG8NEq2FT6-1" value="Usuario" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="1">
+          <mxGeometry x="-103" y="32" width="63" height="63" as="geometry" />
         </mxCell>
         <mxCell id="Ux4RUECBiBFG8NEq2FT6-5" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Ux4RUECBiBFG8NEq2FT6-2" target="Ux4RUECBiBFG8NEq2FT6-4">
           <mxGeometry relative="1" as="geometry" />
@@ -20,31 +20,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ux4RUECBiBFG8NEq2FT6-2" value="CDN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="38" y="59.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="47" y="33.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ux4RUECBiBFG8NEq2FT6-34" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Ux4RUECBiBFG8NEq2FT6-4" target="Ux4RUECBiBFG8NEq2FT6-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ux4RUECBiBFG8NEq2FT6-4" value="Static Content" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="235" y="59.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="244" y="33.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ux4RUECBiBFG8NEq2FT6-11" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Ux4RUECBiBFG8NEq2FT6-7" target="Ux4RUECBiBFG8NEq2FT6-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ux4RUECBiBFG8NEq2FT6-7" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="34" y="176" width="120" height="60" as="geometry" />
+          <mxGeometry x="43" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ux4RUECBiBFG8NEq2FT6-13" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Ux4RUECBiBFG8NEq2FT6-10" target="Ux4RUECBiBFG8NEq2FT6-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ux4RUECBiBFG8NEq2FT6-10" value="Load Balancer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="233" y="178" width="120" height="60" as="geometry" />
+          <mxGeometry x="242" y="152" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ux4RUECBiBFG8NEq2FT6-14" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Ux4RUECBiBFG8NEq2FT6-12" target="Ux4RUECBiBFG8NEq2FT6-9">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Ux4RUECBiBFG8NEq2FT6-12" value="Web App Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="436" y="176" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ux4RUECBiBFG8NEq2FT6-35" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Ux4RUECBiBFG8NEq2FT6-1" target="Ux4RUECBiBFG8NEq2FT6-7">
           <mxGeometry relative="1" as="geometry" />
@@ -55,14 +52,20 @@
             <mxPoint x="601.1979695431471" y="363" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ux4RUECBiBFG8NEq2FT6-38" value="Vertical Flow Layout" style="swimlane;startSize=20;horizontal=1;childLayout=flowLayout;flowOrientation=north;resizable=0;interRankCellSpacing=50;containerType=tree;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="397" y="294" width="220" height="140" as="geometry" />
+        <mxCell id="Ux4RUECBiBFG8NEq2FT6-38" value="Data" style="swimlane;startSize=20;horizontal=1;childLayout=flowLayout;flowOrientation=north;resizable=0;interRankCellSpacing=50;containerType=tree;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="418" y="292" width="228" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Ux4RUECBiBFG8NEq2FT6-9" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="Ux4RUECBiBFG8NEq2FT6-38">
           <mxGeometry x="20" y="40" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ux4RUECBiBFG8NEq2FT6-49" value="Elasticserach" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="Ux4RUECBiBFG8NEq2FT6-38">
-          <mxGeometry x="140" y="40" width="60" height="80" as="geometry" />
+          <mxGeometry x="147.5" y="40" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ux4RUECBiBFG8NEq2FT6-50" value="Vertical Tree Layout" style="swimlane;startSize=20;horizontal=1;childLayout=treeLayout;horizontalTree=0;sortEdges=1;resizable=0;containerType=tree;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="397" y="81" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Ux4RUECBiBFG8NEq2FT6-12" value="Web App Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ux4RUECBiBFG8NEq2FT6-50">
+          <mxGeometry x="72" y="70" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
